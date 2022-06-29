@@ -7,107 +7,111 @@
     <title>Mr. Snowman Cafe</title>
 </head>
 <body>
-    <header>
-        <div>
-            <nav>
+    <header class="header">
+        <div class="header__nav">
+
+            <nav class="header__nav-left">
                 <a href="#">About us</a>
                 <a href="#">Menu</a>
                 <a href="#">Special</a>
             </nav>
-            <div>
+
+            <div class="header__logo">
                 <img src="./img/header-logo.svg" alt="Logo" width="20%">
             </div>
-            <nav>
+
+            <nav class="header__nav-right">
                 <a href="#">Ingredients</a>
                 <a href="#">Blog</a>
                 <a href="#">Contacts</a>
             </nav>
         </div>
 
-        <div>
-            <p>Welcome to</p>
+        <div class="header__main-conteiner">
+            <h4>Welcome to</h4>
             <h1>Mr. Snowman Cafe</h1>
             <p>Handcrafting the most delicious ice cream since 1999.</p>
-            <div>
-                <a href="#">About Cafe</a>
-                <a href="#">Our Menu</a>
+            <div class="header__btns">
+                <a class="header__btns-about" href="#">About Cafe</a>
+                <a class="header__btns-menu" href="#">Our Menu</a>
             </div>
         </div>
     </header>
 
-    <section>
-        <div>
+    <section class="menu-blocks">
+        <div class="menu-blocks__desserts">
             <h3>Desserts</h3>
             <a href="#">View Menu</a>
         </div>
-        <div>
+        <div class="menu-blocks__milk-shakes">
             <h3>Milk Shakes</h3>
             <a href="#">View Menu</a>
         </div>
-        <div>
+        <div class="menu-blocks__ice-cream">
             <h3>Ice Cream</h3>
             <a href="#">View Menu</a>
         </div>
     </section>
 
-    <section>
-        <div>
+    <section class="ice-cream-tastes">
             <h4>Ice cream tastes</h4>
             <h3>Select Your Favorite Taste</h3>
             <p>From strawberry to coconut, we have them all!</p>
-        </div>
-        <div>
-            <div>
+
+        <div class="ice-cream-tastes__carousel-container">
+            <div class="ice-cream-tastes__left-arrow">
                 <button><img src="" alt=""></button>
             </div>
-            <div>
-                <div>
+            <div class="ice-cream-tastes__carousel">
+                <div class="ice-cream-tastes__block">
                     <img src="./img/balls-strawberry.png" alt="Strawberry Gem" width="20%">
                     <h4>Strawberry Gem</h4>
-                    <p>fruity and fresh</p>
-                    <p><span>$5</span>/ball</p>
+                    <h6>fruity and fresh</h6>
+                    <p class="ice-cream-tastes__price"><span>$5</span>/ball</p>
                 </div>
-                <div>
+                <div class="ice-cream-tastes__block">
                     <img src="./img/balls-choko.png" alt="Choco & hazelnut" width="20%">
                     <h4>Choco & hazelnut</h4>
-                    <p>rich sweet taste</p>
-                    <p><span>$5</span>/ball</p>
+                    <h6>rich sweet taste</h6>
+                    <p class="ice-cream-tastes__price"><span>$5</span>/ball</p>
                 </div>
-                <div>
+                <div class="ice-cream-tastes__block">
                     <img src="./img/balls-blue.png" alt="Blue Paradise" width="20%">
                     <h4>Blue Paradise</h4>
-                    <p>sour and fruity</p>
-                    <p><span>$5</span>/ball</p>
+                    <h6>sour and fruity</h6>
+                    <p class="ice-cream-tastes__price"><span>$5</span>/ball</p>
                 </div>
-                <div>
+                <div class="ice-cream-tastes__block">
                     <img src="./img/balls-mango.png" alt="Mango Dreams" width="20%">
                     <h4>Mango Dreams</h4>
-                    <p>classic tropic taste</p>
-                    <p><span>$5</span>/ball</p>
+                    <h6>classic tropic taste</h6>
+                    <p class="ice-cream-tastes__price"><span>$5</span>/ball</p>
                 </div>
-                <div>
+                <div class="ice-cream-tastes__block">
                     <img src="./img/balls-pistachio.png" alt="Pistachio Heaven" width="20%">
                     <h4>Pistachio Heaven</h4>
-                    <p>creamy nutty flavor</p>
-                    <p><span>$5</span>/ball</p>
+                    <h6>creamy nutty flavor</h6>
+                    <p class="ice-cream-tastes__price"><span>$5</span>/ball</p>
                 </div>
             </div>
-            <div>
+
+            <div class="ice-cream-tastes__right-arrow">
                 <button><img src="" alt=""></button>
             </div>
         </div>
-        <div>
+
+        <div class="ice-cream-tastes__show-me-more">
             <a href="#">Show Me More</a>
         </div>
     </section>
 
-    <section>
+    <section class="ingredients">
         <img src="./img/Ingredients-photo.png" alt="Ice Cream" width="40%">
-        <div>
-            <p>Ingredients</p>
+        <div class="ingredients__descr">
+            <h4>Ingredients</h4>
             <h2>100% Organic and Natural</h2>
-            <p>We use only natural ingredients in our ice cream and desserts.</p>
-            <ul>
+            <h5>We use only natural ingredients in our ice cream and desserts.</h5>
+            <ul class="ingredients__list">
                 <li>Farm milk from local households;</li>
                 <li>Berry and fruit pieces and whole fruit;</li>
                 <li>No chemical flavors or sweeteners.</li>
@@ -117,134 +121,307 @@
         </div>
     </section>
 
-    <section>
-        <div>
-            <p>Our menu</p>
+    <section class="menu-carousel">
+
+            <h4>Our menu</h4>
             <h3>Featured Desserts & Treats</h3>
             <p>Welcome to the sweet tooth paradise!</p>
-        </div>
-        <div>
+
+        <div class="menu-carousel__links">
             <a href="#">Desserts</a>
             <a href="#">Ice Cream</a>
             <a href="#">Drinks</a>
         </div>
-        <div>
-            <div>
+
+        <div class="menu-carousel__desserts">
+            <div class="menu-carousel-desserts-blocks">
                 <img src="./img/Desserts-Sweet Joy.png" alt="Sweet Joy" width="20%">
-                <p>Sweet Joy / <span>$15</span></p>
+                <p class="menu-carousel-desserts-descr">Sweet Joy / <span>$15</span></p>
             </div>
-            <div>
+            <div class="menu-carousel-desserts-blocks">
                 <img src="./img/Desserts-Gentle Cloud.png" alt="Gentle Cloud" width="20%">
-                <p>Gentle Cloud / <span>$12</span></p>
+                <p class="menu-carousel-desserts-descr">Gentle Cloud / <span>$12</span></p>
             </div>
-            <div>
+            <div class="menu-carousel-desserts-blocks">
                 <img src="./img/Desserts-Rose Sparkle.png" alt="Rose Sparkle" width="20%">
-                <p>Rose Sparkle / <span>$15</span></p>
+                <p class="menu-carousel-desserts-descr">Rose Sparkle / <span>$15</span></p>
             </div>
-            <div>
+            <div class="menu-carousel-desserts-blocks">
                 <img src="./img/Desserts-Tropical Day.png" alt="Tropical Day" width="20%">
-                <p>Tropical Day / <span>$18</span></p>
+                <p class="menu-carousel-desserts-descr">Tropical Day / <span>$18</span></p>
             </div>
-            <div>
+            <div class="menu-carousel-desserts-blocks">
                 <img src="./img/Desserts-Hazelnut.png" alt="Hazelnut" width="20%">
-                <p>Hazelnut / <span>$12</span></p>
+                <p class="menu-carousel-desserts-descr">Hazelnut / <span>$12</span></p>
             </div>
-            <div>
+            <div class="menu-carousel-desserts-blocks">
                 <img src="./img/Desserts-Berry Mix.png" alt="Berry Mix" width="20%">
-                <p>Berry Mix / <span>$13</span></p>
+                <p class="menu-carousel-desserts-descr">Berry Mix / <span>$13</span></p>
             </div>
-            <div>
+            <div class="menu-carousel-desserts-blocks">
                 <img src="./img/Desserts-Siesta.png" alt="Siesta" width="20%">
-                <p>Siesta / <span>$15</span></p>
+                <p class="menu-carousel-desserts-descr">Siesta / <span>$15</span></p>
             </div>
-            <div>
+            <div class="menu-carousel-desserts-blocks">
                 <img src="./img/Desserts-Choco Cream.png" alt="Choco Cream" width="20%">
-                <p>Choco Cream / <span>$11</span></p>
+                <p class="menu-carousel-desserts-descr">Choco Cream / <span>$11</span></p>
             </div>
         </div>
 
-        <div>
-            <div>
+        <div class="menu-carousel__ice-cream">
+            <div class="menu-carousel__ice-cream-blocks">
                 <img src="./img/Ice Cream-Rosemary.png" alt="Rosemary" width="10%">
-                <p>Rosemary / <span>$6</span></p>
+                <p class="menu-carousel__ice-cream-descr">Rosemary / <span>$6</span></p>
             </div>
-            <div>
+            <div class="menu-carousel__ice-cream-blocks">
                 <img src="./img/Ice Cream-Raspberry.png" alt="Raspberry" width="10%">
-                <p>Raspberry / <span>$7</span></p>
+                <p class="menu-carousel__ice-cream-descr">Raspberry / <span>$7</span></p>
             </div>
-            <div>
+            <div class="menu-carousel__ice-cream-blocks">
                 <img src="./img/Ice Cream-Orange.png" alt="Orange" width="10%">
-                <p>Orange / <span>$5</span></p>
+                <p class="menu-carousel__ice-cream-descr">Orange / <span>$5</span></p>
             </div>
-            <div>
+            <div class="menu-carousel__ice-cream-blocks">
                 <img src="./img/Ice Cream-Blueberry.png" alt="Blueberry" width="10%">
-                <p>Blueberry / <span>$8</span></p>
+                <p class="menu-carousel__ice-cream-descr">Blueberry / <span>$8</span></p>
             </div>
-            <div>
+            <div class="menu-carousel__ice-cream-blocks">
                 <img src="./img/Ice Cream-Vanilla.png" alt="Vanilla" width="10%">
-                <p>Vanilla / <span>$4</span></p>
+                <p class="menu-carousel__ice-cream-descr">Vanilla / <span>$4</span></p>
             </div>
-            <div>
+            <div class="menu-carousel__ice-cream-blocks">
                 <img src="./img/Ice Cream-Chocolate.png" alt="Chocolate" width="10%">
-                <p>Chocolate / <span>$5</span></p>
+                <p class="menu-carousel__ice-cream-descr">Chocolate / <span>$5</span></p>
             </div>
-            <div>
+            <div class="menu-carousel__ice-cream-blocks">
                 <img src="./img/Ice Cream-Strawberry.png" alt="Strawberry" width="10%">
-                <p>Strawberry / <span>$5</span></p>
+                <p class="menu-carousel__ice-cream-descr">Strawberry / <span>$5</span></p>
             </div>
-            <div>
+            <div class="menu-carousel__ice-cream-blocks">
                 <img src="./img/Ice Cream-Pistachio.png" alt="Pistachio" width="10%">
-                <p>Pistachio / <span>$5</span></p>
+                <p class="menu-carousel__ice-cream-descr">Pistachio / <span>$5</span></p>
             </div>
         </div>
         
-        <div>
-            <div>
+        <div class="menu-carousel__drinks">
+            <div class="menu-carousel__drinks-blocks">
                 <img src="./img/Drinks-Strawberry.png" alt="Strawberry" width="10%">
-                <p>Strawberry / <span>$10</span></p>
+                <p class="menu-carousel__drinks-price">Strawberry / <span>$10</span></p>
             </div>
-            <div>
+            <div class="menu-carousel__drinks-blocks">
                 <img src="./img/Drinks-Caramel.png" alt="Caramel" width="10%">
-                <p>Caramel / <span>$8</span></p>
+                <p class="menu-carousel__drinks-price">Caramel / <span>$8</span></p>
             </div>
-            <div>
+            <div class="menu-carousel__drinks-blocks">
                 <img src="./img/Drinks-Berry Shake.png" alt="Berry Shake" width="10%">
-                <p>Berry Shake / <span>$12</span></p>
+                <p class="menu-carousel__drinks-price">Berry Shake / <span>$12</span></p>
             </div>
-            <div>
+            <div class="menu-carousel__drinks-blocks">
                 <img src="./img/Drinks-Choco-Choco.png" alt="Choco-Choco" width="10%">
-                <p>Choco-Choco / <span>$9</span></p>
+                <p class="menu-carousel__drinks-price">Choco-Choco / <span>$9</span></p>
             </div>
-            <div>
+            <div class="menu-carousel__drinks-blocks">
                 <img src="./img/Drinks-Mango Shake.png" alt="Mango Shake" width="10%">
-                <p>Mango Shake / <span>$8</span></p>
+                <p class="menu-carousel__drinks-price">Mango Shake / <span>$8</span></p>
             </div>
-            <div>
+            <div class="menu-carousel__drinks-blocks">
                 <img src="./img/Drinks-Orange Shake.png" alt="Orange Shake" width="10%">
-                <p>Orange Shake / <span>$9</span></p>
+                <p class="menu-carousel__drinks-price">Orange Shake / <span>$9</span></p>
             </div>
-            <div>
+            <div class="menu-carousel__drinks-blocks">
                 <img src="./img/Drinks-Banana Shake.png" alt="Banana Shake" width="10%">
-                <p>Banana Shake / <span>$8</span></p>
+                <p class="menu-carousel__drinks-price">Banana Shake / <span>$8</span></p>
             </div>
-            <div>
+            <div class="menu-carousel__drinks-blocks">
                 <img src="./img/Drinks-Ice Latte.png" alt="Ice Latte" width="10%">
-                <p>Ice Latte / <span>$10</span></p>
+                <p class="menu-carousel__drinks-price">Ice Latte / <span>$10</span></p>
             </div>
         </div>
     </section>
 
-    <section>
-        <div>
-            <p>Book a table</p>
+    <section class="proposition">
+        <div class="proposition__book">
+            <h4>Book a table</h4>
             <h3>Hurry Up to Book the
             Coziest Table Now!</h3>
             <a href="#">Book a Table</a>
         </div>
-        <div>
-            <h4>Get Advantage of Our Special Offers!</h4>
+        <div class="proposition__special">
+            <h3>Get Advantage of Our Special Offers!</h3>
             <a href="#">Learn More</a>
         </div>
     </section>
+
+    <section class="sale">
+        <h3>ICE CREAM DAY SALE IN</h3>
+        <div class="sale__clock">Clock</div>
+        <h4>July 30 all day 50% OFF Ice Cream</h4>
+    </section>
+
+    <section class="new-taste">
+        <div class="new-taste__descr">
+            <h4>Next month special</h4>
+            <h3>Try New Splashes of Taste!</h3>
+            <p>Three great ice cream tastes worth waiting for:</p>
+
+            <div class="new-taste__cream">
+                <div class="new-taste__icon">
+
+                </div>
+                <div class="new-taste__list">
+                    <h4>Cream With Vanilla</h4>
+                    <p>Fine vanilla flavor with milky aftertaste.</p>
+                </div>
+            </div>
+
+            <div class="new-taste__fruit">
+                <div class="new-taste__icon">
+
+                </div>
+                <div class="new-taste__list">
+                    <h4>Fresh Fruit</h4>
+                    <p>What is summer without fresh fruit?</p>
+                </div>
+            </div>
+
+            <div class="new-taste__sugar">
+                <div class="new-taste__icon">
+
+                </div>
+                <div class="new-taste__list">
+                    <h4>Popping Sugar</h4>
+                    <p>Feel the sugar pop on your tongue!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="new-taste__img">
+            <img src="./img/new-taste.png" alt="" width="30%">
+        </div>
+
+        <!-- <div>
+            <svg viewBox="0 0 1680 168" xmlns="http://www.w3.org/2000/svg" class="style_3DA tablet_3hj bottom_1M-" fill="#b87390"
+                preserveAspectRatio="none" shape-rendering="geometricPrecision" style="height:75px">
+                <defs>
+                    <pattern id="wave-9e4c20fa-7ccb-40b1-8f04-8e73da615ddf" x="0" y="0" width="100%" height="100%"
+                        viewBox="0 0 1680 160" style="height:75px" preserveAspectRatio="none">
+                        <path
+                            d="M-0.000152588 161L840 161L1260 161L1680 161L2100 161L1890 51.5001C1758.41 -17.1163 1601.59 -17.1178 1470 51.496C1338.41 120.108 1181.59 120.108 1050 51.4952C918.408 -17.1179 761.592 -17.1178 629.999 51.4953C498.407 120.108 341.594 120.108 210.002 51.496C78.4079 -17.1178 -78.4074 -17.1162 -210.001 51.5003L-420 161L-0.000152588 161Z">
+                        </path>
+                    </pattern>
+                </defs>
+                <rect x="0" y="0" width="100%" height="100%" fill="url(#wave-9e4c20fa-7ccb-40b1-8f04-8e73da615ddf)"></rect>
+            </svg>
+        </div> -->
+    </section>
+
+    <section class="about-us">
+        <h4>About us</h4>
+        <h3>Our Story</h3>
+        <h5>Our mission is to offer the best experience and the tastiest desserts to our clients.</h5>
+        <p>We are Mr. Snowman, a small yet cozy NY cafe network. We have been handcrafting the most delicious ice cream since 1999,
+        and these days, our menu is more varied than ever before. Come to us to enjoy various ice cream flavors and try our
+        seasonal and holiday desserts and drinks.</p>
+        <div class="about-us__icons-container">
+            <div class="about-us__icons">
+                <h3>20+</h3>
+                <p>Years of experience</p>
+            </div>
+
+            <div class="about-us__icons">
+                <h3>25</h3>
+                <p>Professional ice cream makers</p>
+            </div>
+
+            <div class="about-us__icons">
+                <h3>18+</h3>
+                <p>Ice cream shops in New York</p>
+            </div>
+
+            <div class="about-us__icons">
+                <h3>50</h3>
+                <p>Great tastes of ice cream</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <h4>Gallery</h4>
+        <h3>Our Gallery</h3>
+        <p>Ice cream and desserts are our real passion!</p>
+        <div class="gallery__img">
+            <img src="./img/gallery-two-people.png" alt="" width="30%">
+            <img src="./img/gallery-fridge.png" alt="" width="30%">
+            <img src="./img/gallery-order.png" alt="" width="30%">
+            <img src="./img/gallery-two-ice-creams.png" alt="" width="30%">
+            <img src="./img/gallery-making.png" alt="" width="30%">
+        </div>
+    </section>
+
+    <section class="blog">
+        <h4>Blog</h4>
+        <h3>Our Latest Articles</h3>
+        <p>Learn more about ice cream, our news, and special offers.</p>
+        <div class="blog__articles-container">
+            <div class="blog__article">
+                <img src="./img/blog-Discount.png" alt="" width="30%">
+                <h3>-15% Discount on 10 Tastes!</h3>
+                <p>Hurry up to use your discount! We offer special prices on top spring tastes until 10 June.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="blog__article">
+                <img src="./img/blog-History.png" alt="" width="30%">
+                <h3>The History of Ice Cream</h3>
+                <p>Many people know that the original ice cream comes from Italy. Here is the whole story...</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="blog__article">
+                <img src="./img/blog-birthday.png" alt="" width="30%">
+                <h3>Celebrate Birthdays with Us!</h3>
+                <p>Mr. Snowman's Birthday Parties are great for kids of all ages. We have lots of sweet treats and fun.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__about-company">
+            <img src="./img/footer-logo.svg" alt="" width="20%">
+            <p>Welcome to the sweetest place in our city! We offer handcrafted ice cream, desserts, and drinks.</p>
+            <div class="footer__social">
+                <a class="footer__facebook" href="#"><img src="" alt=""></a>
+                <a class="footer__instagram" href="#"><img src="" alt=""></a>
+                <a class="footer__twitter" href="#"><img src="" alt=""></a>
+                <a class="footer__youtube" href="#"><img src="" alt=""></a>
+            </div>
+        </div>
+
+        <nav class="footer__nav">
+            <ul class="footer__nav-list">
+                <h4>Navigation</h4>
+                <li class="footer__item"><a href="#">About us</a></li>
+                <li class="footer__item"><a href="#">Menu</a></li>
+                <li class="footer__item"><a href="#">Special</a></li>
+                <li class="footer__item"><a href="#">Ingredients</a></li>
+            </ul>
+        </nav>
+
+        <nav class="footer__nav">
+            <ul class="footer__nav-list">
+                <h4>Help & Support</h4>
+                <li class="footer__item"><a href="#">Blog</a></li>
+                <li class="footer__item"><a href="#">Terms & Conditions</a></li>
+                <li class="footer__item"><a href="#">Help</a></li>
+                <li class="footer__item"><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
+
+        <div class="footer__contacts">
+            <h4>Opening Hours</h4>
+            <p>Mon – Thu: 10:00 AM – 11 PM Sat - Sun : 11:00 AM – 11 PM</p>
+            <h4>Book a Table</h4>
+            <a href="#">+1 (234) 567 89 00</a>
+        </div>
+    </footer>
 </body>
 </html>
