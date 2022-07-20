@@ -1,0 +1,122 @@
+.header {
+    background: url(/img/header-background.png) no-repeat 65%;
+    background-size: cover;
+    max-height: 905px;
+}
+
+.header__nav {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    height: 60px;
+    width: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__logo img {
+    width: 129px;
+    height: auto;
+}
+
+.header__list {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header__list a {
+    color: var(--main-text-color);
+    font-weight: 500;
+    font-size: 17px;
+    font-style: bold;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.header__list li :hover {
+    border-bottom: 2px solid var(--accent-background-color);
+}
+
+.header__main-conteiner {
+    padding-top: 250px;
+    padding-bottom: 250px;
+    padding-left: 45px;
+    padding-right: 15px;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: auto;
+}
+
+.header__main-conteiner h4 {
+    font-family: "Leckerli One", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+}
+
+.header__main-conteiner h1 {
+    font-family: "Dangrek", sans-serif;
+    font-size: 80px;
+}
+
+.header__main-conteiner p {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--description-text-color);
+}
+
+.header__btns {
+    margin-top: 55px;
+}
+
+.header__btns-about {
+    padding-top: 18px;
+    padding-right: 35px;
+    padding-bottom: 18px;
+    padding-left: 35px;
+    border-radius: 32px;
+    background: var(--accent-text-color);
+    font-weight: 700;
+    color: var(--main-text-color);
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.header__btns-menu {
+    padding-top: 18px;
+    padding-right: 35px;
+    padding-bottom: 18px;
+    padding-left: 35px;
+    border-radius: 32px;
+    background: var(--button-color);
+    font-weight: 700;
+    color: var(--main-text-color);
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.header__btns-about:hover {
+    background: var(--contacts-background-color);
+}
+
+.header__btns-menu:hover {
+    background: var(--button-accent-color);
+}

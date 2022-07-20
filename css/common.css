@@ -14,12 +14,17 @@
     --accent-text-color: #ffc452;
     --background-color: #4a3c5e;
     --accent-background-color: #b87390;
-    background: var(--background-color);
-    color: var(--main-text-color);
+    --button-color: #32264b;
+    --container-accent-color: #bc5278;
+    --button-accent-color: #a55376;
+    --menu-backgroung-color: #6382a7;
+    --menu-accent-background-color: #537398;
+    --about-us-background-color: #b7728f;
+    --contacts-background-color: #f8b83d;
 }
 
-/* img {
+img {
     display: block;
     width: 100%;
-} */
+}
 
