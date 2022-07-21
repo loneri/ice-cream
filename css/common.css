@@ -21,6 +21,10 @@
     --menu-accent-background-color: #537398;
     --about-us-background-color: #b7728f;
     --contacts-background-color: #f8b83d;
+    --main-font-family: 'Source Sans 3', sans-serif;
+    --head-font-family: 'Dangrek', sans-serif;
+    --accent-font-family: "Leckerli One", sans-serif;
+    --link-font-family: "Source Sans Pro", sans-serif;
 }
 
 img {

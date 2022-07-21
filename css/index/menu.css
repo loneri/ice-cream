@@ -1,0 +1,121 @@
+.menu-blocks {
+    padding-top: 65px;
+    padding-bottom: 60px;
+ }
+
+.menu-blocks__container {
+    display: flex;
+    justify-content: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0, auto;
+}
+
+.menu-blocks__desserts, .menu-blocks__milk-shakes, .menu-blocks__ice-cream {
+    margin-right: 15px;
+    margin-left: 15px;
+    height: 460px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-blocks__desserts {
+    background: url(/img/menu-desserts.png);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.menu-blocks__desserts h3 {
+    font-family: var(--head-font-family);
+    font-size: 36px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.menu-blocks-desserts__button {
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    border-radius: 32px;
+    background: var(--button-color);
+    font-weight: 700;
+    color: var(--main-text-color);
+    font-family: var(--link-font-family);
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.menu-blocks-desserts__button:hover {
+    background: var(--button-accent-color);
+}
+
+.menu-blocks__milk-shakes {
+    background: url(/img/menu-milk-shakes.png);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.menu-blocks__milk-shakes h3 {
+    font-family: var(--head-font-family);
+    font-size: 36px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.menu-blocks-milk-shakes__button {
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    border-radius: 32px;
+    background: var(--button-accent-color);
+    font-weight: 700;
+    color: var(--main-text-color);
+    font-family: var(--link-font-family);
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.menu-blocks-milk-shakes__button:hover {
+    background: var(--background-color);
+}
+
+.menu-blocks__ice-cream {
+    background: url(/img/menu-ice-cream.png);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.menu-blocks__ice-cream h3 {
+    font-family: var(--head-font-family);
+    font-size: 36px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.menu-blocks-ice-cream__button {
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    border-radius: 32px;
+    background: var(--button-color);
+    font-weight: 700;
+    color: var(--main-text-color);
+    font-family: var(--link-font-family);
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.menu-blocks-ice-cream__button:hover {
+    background: var(--button-accent-color);
+}
